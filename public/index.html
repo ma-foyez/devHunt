@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>DevHunt || Online Learning Platform</title>
+    <title>DevsHunt || Online Learning Platform</title>
 
     <!-- style -->
     <link rel="stylesheet" href="./css/style.css">
@@ -98,14 +98,16 @@
                         <span class="absolute top-0.5 left-4">
                             <i class="fa-solid fa-search text-slate-300"></i>
                         </span>
-                        <input type="search" placeholder="Search Online Courses..." class="ml-16 outline-none focus:outline-none font-thin w-72">
+                        <input type="search" placeholder="Search Online Courses..."
+                            class="ml-16 outline-none focus:outline-none font-thin w-72">
                     </div>
                     <div class="basis-2/6 flex">
                         <div>
                             <i class="fa-solid fa-cube text-gray-400 mr-2"></i>
                         </div>
                         <div class="flex-1">
-                            <select name="category" id="category" class="bg-white text-gray-400 font-thin w-full outline-none">
+                            <select name="category" id="category"
+                                class="bg-white text-gray-400 font-thin w-full outline-none">
                                 <option value="" disabled selected>Select Technology</option>
                                 <option value="">Bootstrap</option>
                                 <option value="">React JS</option>
@@ -115,17 +117,91 @@
                         </div>
                     </div>
                     <div class="basis-1/6">
-                        <button class="transition bg-red-500 text-white rounded-full px-8 hover:opacity-75 w-full ml-3 p-3"> Search</button>
+                        <button
+                            class="transition bg-red-500 text-white rounded-full px-8 hover:opacity-75 w-full ml-3 p-3">
+                            Search</button>
                     </div>
-
                 </div>
             </form>
+            <p class="mt-6 text-gray-600">
+                <strong>Popular Search :</strong>
+                <span class="text-gray-400">Designer, Developer, PHP</span>
+            </p>
         </div>
     </header>
     <!-- End Header / Hero Section  -->
 
     <!-- Start Categories Section  -->
-    <section>
+    <section id="category" class="mt-12">
+        <div class="container mx-auto">
+            <h2 class="my-5 font-medium"> Browse Categories </h2>
+            <div class="flex flex-row gap-2 items-center text-center">
+                <div
+                    class="transition basis-[12.5%] bg-[#FCF1EB] cursor-pointer rounded mr-3 p-5 hover:opacity-75 group">
+                    <div class="bg-white rounded-full m-0 mx-auto w-20 h-20 p-2.5 scale-90 group-hover:scale-100">
+                        <img src="./images/icons/bootstrap.png" alt="Bootstrap" class="w-16 h-16">
+                    </div>
+                    <h4 class="mt-4 mb-2 font-medium">Bootstrap</h4>
+                    <p class="text-gray-500 text-xs">32 Courses</p>
+                </div> <!-- Single Category Item -->
+                <div
+                    class="transition basis-[12.5%] bg-[#FEF9EC] cursor-pointer rounded mr-3 p-5 hover:opacity-75 group">
+                    <div class="bg-white rounded-full m-0 mx-auto w-20 h-20 p-2.5 scale-90 group-hover:scale-100">
+                        <img src="./images/icons/html.png" alt="Bootstrap" class="w-16 h-16">
+                    </div>
+                    <h4 class="mt-4 mb-2 font-medium">HTML</h4>
+                    <p class="text-gray-500 text-xs">54 Courses</p>
+                </div> <!-- Single Category Item -->
+                <div
+                    class="transition basis-[12.5%] bg-[#E4F4FB] cursor-pointer rounded mr-3 p-5 hover:opacity-75 group">
+                    <div class="bg-white rounded-full m-0 mx-auto w-20 h-20 p-2.5 scale-90 group-hover:scale-100">
+                        <img src="./images/icons/jquery.png" alt="Bootstrap" class="w-16 h-16">
+                    </div>
+                    <h4 class="mt-4 mb-2 font-medium">Jquery</h4>
+                    <p class="text-gray-500 text-xs">76 Courses</p>
+                </div> <!-- Single Category Item -->
+                <div
+                    class="transition basis-[12.5%] bg-[#DBF4F7] cursor-pointer rounded mr-3 p-5 hover:opacity-75 group">
+                    <div class="bg-white rounded-full m-0 mx-auto w-20 h-20 p-2.5 scale-90 group-hover:scale-100">
+                        <img src="./images/icons/sass.png" alt="Bootstrap" class="w-16 h-16">
+                    </div>
+                    <h4 class="mt-4 mb-2 font-medium">SASS</h4>
+                    <p class="text-gray-500 text-xs">65 Courses</p>
+                </div> <!-- Single Category Item -->
+                <div
+                    class="transition basis-[12.5%] bg-[#FCF1EB] cursor-pointer rounded mr-3 p-5 hover:opacity-75 group">
+                    <div class="bg-white rounded-full m-0 mx-auto w-20 h-20 p-2.5 scale-90 group-hover:scale-100">
+                        <img src="./images/icons/react.png" alt="Bootstrap" class="w-16 h-16">
+                    </div>
+                    <h4 class="mt-4 mb-2 font-medium">React JS</h4>
+                    <p class="text-gray-500 text-xs">39 Courses</p>
+                </div> <!-- Single Category Item -->
+                <div
+                    class="transition basis-[12.5%] bg-[#FEF9EC] cursor-pointer rounded mr-3 p-5 hover:opacity-75 group">
+                    <div class="bg-white rounded-full m-0 mx-auto w-20 h-20 p-2.5 scale-90 group-hover:scale-100">
+                        <img src="./images/icons/java.png" alt="Bootstrap" class="w-16 h-16">
+                    </div>
+                    <h4 class="mt-4 mb-2 font-medium">JAVA</h4>
+                    <p class="text-gray-500 text-xs">78 Courses</p>
+                </div> <!-- Single Category Item -->
+                <div
+                    class="transition basis-[12.5%] bg-[#E4F4FB] cursor-pointer rounded mr-3 p-5 hover:opacity-75 group">
+                    <div class="bg-white rounded-full m-0 mx-auto w-20 h-20 p-2.5 scale-90 group-hover:scale-100">
+                        <img src="./images/icons/python.png" alt="Bootstrap" class="w-16 h-16">
+                    </div>
+                    <h4 class="mt-4 mb-2 font-medium">Python</h4>
+                    <p class="text-gray-500 text-xs">63 Courses</p>
+                </div> <!-- Single Category Item -->
+                <div
+                    class="transition basis-[12.5%] bg-[#FCF1EB] cursor-pointer rounded mr-3 p-5 hover:opacity-75 group">
+                    <div class="bg-white rounded-full m-0 mx-auto w-20 h-20 p-2.5 scale-90 group-hover:scale-100">
+                        <img src="./images/icons/mongodb.png" alt="Bootstrap" class="w-16 h-16">
+                    </div>
+                    <h4 class="mt-4 mb-2 font-medium">MongoDB</h4>
+                    <p class="text-gray-500 text-xs">18 Courses</p>
+                </div> <!-- Single Category Item -->
+            </div>
+        </div>
     </section>
     <!-- End Categories Section  -->
 
