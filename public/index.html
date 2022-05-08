@@ -82,10 +82,45 @@
         </div>
     </nav>
     <!-- End Navbar  -->
-    
 
     <!-- Start Header / Hero Section  -->
-    <header>
+    <header class="bg-[#DEF6FD] mt-2 rounded-md shadow">
+        <div class="container mx-auto bg-hero bg-contain bg-no-repeat bg-[right_0px_top_10px] py-40">
+            <h2 class="text-4xl mb-1">Find Perfect</h2>
+            <h2 class="font-semibold text-4xl">Online Course</h2>
+            <p class="text-gray-500 my-3">
+                For only course you need to learn web development.
+            </p>
+
+            <form action="" method="get" class="mt-4">
+                <div class="flex items-center bg-white p-4">
+                    <div class="basis-3/6 relative">
+                        <span class="absolute top-0.5 left-4">
+                            <i class="fa-solid fa-search text-slate-300"></i>
+                        </span>
+                        <input type="search" placeholder="Search Online Courses..." class="ml-16 outline-none focus:outline-none font-thin w-72">
+                    </div>
+                    <div class="basis-2/6 flex">
+                        <div>
+                            <i class="fa-solid fa-cube text-gray-400 mr-2"></i>
+                        </div>
+                        <div class="flex-1">
+                            <select name="category" id="category" class="bg-white text-gray-400 font-thin w-full outline-none">
+                                <option value="" disabled selected>Select Technology</option>
+                                <option value="">Bootstrap</option>
+                                <option value="">React JS</option>
+                                <option value="">Laravel-9</option>
+                                <option value="">JavaScript</option>
+                            </select>
+                        </div>
+                    </div>
+                    <div class="basis-1/6">
+                        <button class="transition bg-red-500 text-white rounded-full px-8 hover:opacity-75 w-full ml-3 p-3"> Search</button>
+                    </div>
+
+                </div>
+            </form>
+        </div>
     </header>
     <!-- End Header / Hero Section  -->
 
