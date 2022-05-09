@@ -7,6 +7,9 @@ module.exports = {
       },
       backgroundImage: {
         'hero': "url('./../images/banner.png')"
+      },
+      container: {
+        padding: "1.5rem"
       }
     },
   },
