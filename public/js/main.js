@@ -51,7 +51,7 @@ $(document).ready(function () {
             // The optional number (800) specifies the number of milliseconds it takes to scroll to the specified area
             $('html, body').animate({
                 scrollTop: $(hash).offset().top
-            }, 800, function () {
+            }, 900, function () {
 
                 // Add hash (#) to URL when done scrolling (default click behavior)
                 window.location.hash = hash;
@@ -82,4 +82,16 @@ $(document).ready(function () {
     $('.mobile-navbar').on('click', function (event) {
         event.stopPropagation();
     });
+
+    /*************** Scroll to top *********** */
+    $(window).scroll(function () {
+        if ($(this).scrollTop() > 100) {
+            $("#scroll-top-top").addClass("fixed");
+            $("#scroll-top-top").removeClass("hidden");
+        }else{
+            $("#scroll-top-top").removeClass("fixed");
+            $("#scroll-top-top").addClass("hidden");
+        }
+    })
+
 });

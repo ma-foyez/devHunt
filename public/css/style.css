@@ -622,6 +622,10 @@ Ensure the default browser behavior of the `hidden` attribute.
   right: 0.5rem;
 }
 
+.bottom-1 {
+  bottom: 0.25rem;
+}
+
 .z-50 {
   z-index: 50;
 }
@@ -782,6 +786,14 @@ Ensure the default browser behavior of the `hidden` attribute.
   height: 4rem;
 }
 
+.h-14 {
+  height: 3.5rem;
+}
+
+.h-12 {
+  height: 3rem;
+}
+
 .w-36 {
   width: 9rem;
 }
@@ -812,6 +824,14 @@ Ensure the default browser behavior of the `hidden` attribute.
 
 .w-\[200px\] {
   width: 200px;
+}
+
+.w-14 {
+  width: 3.5rem;
+}
+
+.w-12 {
+  width: 3rem;
 }
 
 .min-w-\[200px\] {
@@ -906,6 +926,10 @@ Ensure the default browser behavior of the `hidden` attribute.
 
 .rounded {
   border-radius: 0.25rem;
+}
+
+.rounded-\[50\%\] {
+  border-radius: 50%;
 }
 
 .rounded-b-none {
@@ -1094,6 +1118,18 @@ Ensure the default browser behavior of the `hidden` attribute.
 
 .pl-5 {
   padding-left: 1.25rem;
+}
+
+.pt-5 {
+  padding-top: 1.25rem;
+}
+
+.pr-\[22px\] {
+  padding-right: 22px;
+}
+
+.pt-4 {
+  padding-top: 1rem;
 }
 
 .text-left {
@@ -1300,6 +1336,11 @@ Ensure the default browser behavior of the `hidden` attribute.
 
 .group:hover .group-hover\:block {
   display: block;
+}
+
+.group:hover .group-hover\:-translate-y-2 {
+  --tw-translate-y: -0.5rem;
+  transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
 }
 
 .group:hover .group-hover\:scale-100 {
